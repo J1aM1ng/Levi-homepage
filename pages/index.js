@@ -32,13 +32,13 @@ const Page = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a Front-end developer based in Hangzhou, China!
+          Hello, I&apos;m a Software Engineer based in Guangzhou, China!
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Oreo Li
+              Levi Shao
             </Heading>
             <p>A Developer who still on his way</p>
           </Box>
@@ -59,7 +59,7 @@ const Page = () => {
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/oreo.jpeg"
+                src="/images/Levi.jpg"
                 alt="Profile image"
                 borderRadius="full"
                 width="100%"
@@ -74,20 +74,15 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Oreo is a front-end developer based in Hangzhou with a passion for
-            building digital services/stuff he wants. He is full of curiosity
-            about all things launching products, from planning and designing all
-            the way to solving real-life problems with code. When not online, he
-            loves hanging out with his &quot;Juliet&quot;. Currently, he is
-            working at a Chinese Automobile Manufacturer called{' '}
-            <Link href="http://zgh.com/">Geely</Link>.
+            Levi is a Software Engineer based in Guangzhou, China with a passion
+            for building digital services/stuff he wants. He is full of
+            curiosity about all things launching products, from planning and
+            designing all the way to solving real-life problems with code.
+            Currently, he is working at a World-Renowned called{' '}
+            <Link href="https://www.tiktok.com/about">TikTok</Link>.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink
-              href="https://github.com/lt502676921"
-              passHref
-              scroll={false}
-            >
+            <NextLink href="https://github.com/J1aM1ng" passHref scroll={false}>
               <Button
                 leftIcon={<IoLogoGithub />}
                 rightIcon={<ChevronRightIcon />}
@@ -101,11 +96,11 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Biography
           </Heading>
           <BioSection>
-            <BioYear>1997</BioYear>
-            Born in Deqing, China.
+            <BioYear>2001</BioYear>
+            Born in Zibo, China.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -115,7 +110,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021 to present</BioYear>
-            Working at Geely, Hangzhou
+            Working at TikTok, Guangzhou
           </BioSection>
         </Section>
 
@@ -123,7 +118,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>Music, Play badminton, Machine Learning</Paragraph>
+          <Paragraph>Music, Play Computer Games, Visualization</Paragraph>
         </Section>
       </Container>
     </Layout>

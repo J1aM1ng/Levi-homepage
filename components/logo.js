@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            &nbsp;&nbsp;&nbsp;Oreo Li
+            &nbsp;&nbsp;&nbsp;Levi Shao
           </Text>
         </LogoBox>
       </a>
