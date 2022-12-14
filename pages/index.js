@@ -78,8 +78,8 @@ const Page = () => {
             for building digital services/stuff he wants. He is full of
             curiosity about all things launching products, from planning and
             designing all the way to solving real-life problems with code.
-            Currently, he is working at a World-Renowned called{' '}
-            <Link href="https://www.tiktok.com/about">TikTok</Link>.
+            Currently, he is working at a world-renowned short video company
+            called <Link href="https://www.tiktok.com/about">TikTok</Link>.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="https://github.com/J1aM1ng" passHref scroll={false}>
@@ -103,14 +103,14 @@ const Page = () => {
             Born in Zibo, China.
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
-            Completed the Bachelor&apos;s Program in the School of Information
-            Engineering at Zhejiang University of Water Resources and Electric
-            Power
+            <BioYear>2022 to present</BioYear>
+            Working at TikTok, Guangzhou.
           </BioSection>
           <BioSection>
-            <BioYear>2021 to present</BioYear>
-            Working at TikTok, Guangzhou
+            <BioYear>2023</BioYear>
+            Expect to complete the Bachelor&apos;s Program in the School of
+            Computer Science and Technology at Shandong University of Computer
+            Science and Technology.
           </BioSection>
         </Section>
 
